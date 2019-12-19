@@ -1,0 +1,23 @@
+{
+    "name": "koa-knex-typescript-template",
+    "version": "1.0.0",
+    "description": "Koa boilerplate code for use with TypeScript and Knex + PostgreSQL",
+    "main": "index.js",
+    "scripts": {
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/BlueGhostGH/koa-knex-typescript-template.git"
+    },
+    "keywords": [
+        "koa",
+        "koa-boilerplate",
+        "koa-typescript"
+    ],
+    "author": "BlueGhost",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/BlueGhostGH/koa-knex-typescript-template/issues"
+    },
+    "homepage": "https://github.com/BlueGhostGH/koa-knex-typescript-template#readme"
+}
