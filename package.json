@@ -11,7 +11,8 @@
         "start-dev": "node -r ./register.js src/index.ts",
         "dev": "nodemon",
         "tsc": "tsc",
-        "build": "npm run tsc"
+        "build": "npm run tsc",
+        "fresh-testdb": "dropdb --if-exists test-greetingsapi && createdb test-greetingsapi"
     },
     "repository": {
         "type": "git",
