@@ -5,6 +5,8 @@ import logger from "koa-logger";
 import json from "koa-json";
 import bodyParser from "koa-bodyparser";
 
+import apiRouter from "./modules/apiRouter";
+
 const app = new Koa();
 
 const router = new Router();
@@ -17,6 +19,8 @@ app.use(json());
 if (process.env.NODE_ENV === "development") {
     app.use(logger());
 }
+
+router.use(apiRouter);
 
 app.use(router.routes()).use(router.allowedMethods());
 
