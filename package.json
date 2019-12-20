@@ -4,6 +4,7 @@
     "description": "Koa boilerplate code for use with TypeScript and Knex + PostgreSQL",
     "main": "index.js",
     "scripts": {
+        "lint": "eslint **/*.ts",
         "start-dev": "node -r ./register.js src/index.ts"
     },
     "repository": {
