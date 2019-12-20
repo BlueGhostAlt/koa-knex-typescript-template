@@ -1,6 +1,6 @@
 # Greetingsapi
 
-Greetingsapi is an API where you can see all sort of nice greetings :smiley:
+Greetingsapi is an API where you can see all sort of nice greetings :smiley: .
 As of right now though, you can't POST, PUT, PATCH or DELETE your own greetings :disappointed:
 
 ## How can I contribute
