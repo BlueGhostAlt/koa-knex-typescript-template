@@ -5,7 +5,7 @@ import { HttpError } from "../classes/httpError";
 export default (): Middleware => async (ctx, next) => {
     try {
         await next();
-    } catch (err) {
+    } catch (err) /* istanbul ignore next */ {
         if (err instanceof HttpError) {
             ctx.status = err.status;
             ctx.body = {
