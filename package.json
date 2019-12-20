@@ -13,7 +13,8 @@
         "tsc": "tsc",
         "build": "npm run tsc",
         "fresh-testdb": "dropdb --if-exists test-greetingsapi && createdb test-greetingsapi",
-        "test": "npm run fresh-testdb && cross-env NODE_ENV=test mocha -r ./register.js 'src/**/*.test.ts' --exit"
+        "test": "npm run fresh-testdb && cross-env NODE_ENV=test mocha -r ./register.js 'src/**/*.test.ts' --exit",
+        "test-coverage": "nyc npm test"
     },
     "repository": {
         "type": "git",
