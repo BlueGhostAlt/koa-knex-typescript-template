@@ -46,6 +46,7 @@
         "typescript": "^3.7.3"
     },
     "dependencies": {
+        "dotenv": "^8.2.0",
         "knex": "^0.20.4",
         "pg": "^7.15.1"
     }
