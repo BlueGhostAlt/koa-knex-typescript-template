@@ -18,6 +18,7 @@ const port = process.env.PORT || 8090;
 app.use(bodyParser());
 app.use(json());
 
+/* istanbul ignore if */
 if (process.env.NODE_ENV === "development") {
     app.use(logger());
 }
